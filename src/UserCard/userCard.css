@@ -1,0 +1,15 @@
+.card {
+    display: flex;
+    border: 3px rgb(222, 73, 73) solid;
+    border-radius: 33px;
+    justify-content: center;
+    flex-direction: column;
+    width: 250px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.continerCard {
+    display: flex;
+    flex-wrap: wrap;
+}

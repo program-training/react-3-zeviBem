@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-interface Users {
+export interface Users {
     id: number;
     name: string;
     username: string;
@@ -52,9 +52,9 @@ function FromServer(): JSX.Element {
                     <ul>
                         {user.map((use) => (
                             <li key = {use.id}>{use.id +" " + use.name}</li>
-                            
                         ))}
                     </ul>
+       
                 </div>
             )}
             <button onClick={() => setUser([])}>clear data</button>
